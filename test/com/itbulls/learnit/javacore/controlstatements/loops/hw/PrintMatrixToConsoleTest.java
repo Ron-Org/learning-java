@@ -10,7 +10,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class PrintMatrixToConsoleTest {
-	private final ByteArrayOutputStream out = new ByteArrayOutputStream();
+	private final ByteArrayOutputStream out = new   ByteArrayOutputStream();
 	private final PrintStream originalOut = System.out;
 
 	@Before
