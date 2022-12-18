@@ -25,9 +25,9 @@ public class FileDemo {
 		System.out.println("File separator: " + File.separator);
 		System.out.println("Path separator: " + File.pathSeparator);
 		
-		String toWrite = "asdasdasd" + System.lineSeparator() + "new line"; // \r\n or \n
+		String toWrite = "asdasdasd" + System.lineSeparator() + "new line"; // \r\n or  \n
 		
-		file = new File("result.csv");
+		file = new File("result.csv") ;
 		file.createNewFile();
 		
 		file.exists();
