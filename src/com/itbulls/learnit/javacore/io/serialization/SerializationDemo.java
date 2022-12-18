@@ -20,7 +20,7 @@ public class SerializationDemo {
 		empl.setProps(props);
 		
 		var byteArrayOutputStream = serializeEmployee(empl);
-		Employee copyEmployee = deserializeEmployee(byteArrayOutputStream);
+		Employee copyEmployee = deserializeEmployee(byteArrayOutputStream ) ;
 		System.out.println(copyEmployee);
 	}
 
