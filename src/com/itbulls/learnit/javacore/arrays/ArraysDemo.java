@@ -9,7 +9,7 @@ public class ArraysDemo {
 		int[] arr;
 		int arr2[];
 		
-		arr = new int[10];
+		arr = new  int[10];
 //		System.out.println(arr.length);
 //		System.out.println(arr[0]);
 		
