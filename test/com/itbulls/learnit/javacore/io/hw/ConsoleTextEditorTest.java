@@ -17,7 +17,7 @@ import org.junit.rules.TemporaryFolder;
 public class ConsoleTextEditorTest {
 
 	@Rule
-	public TemporaryFolder tempFolderRule = new TemporaryFolder();
+	public TemporaryFolder tempFolderRule = new TemporaryFolder() ;
 	
 	private ConsoleTextEditor testInstance;
 	private File fileToWrite;
