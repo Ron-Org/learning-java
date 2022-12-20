@@ -13,7 +13,7 @@ import org.junit.Test;
 
 public class PyramidInConsoleTest {
 	private static final String OUTPUT_RESULT_SEPARATOR = 
-			"Please, enter height of the pyramid: ";
+			"Please, enter height of the pyramid: " ;
 	private final ByteArrayOutputStream out = new ByteArrayOutputStream();
 	private final PrintStream originalOut = System.out;
 
